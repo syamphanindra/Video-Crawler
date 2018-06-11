@@ -1,25 +1,41 @@
 .search-bar{
     margin:20px;
     text-align:center;
+    padding-top: 20px;
 }
 .search-bar input{
-width:75%;
-
+width:60%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.heading{
+    float:left;
+    overflow: hidden;
+   
+}
 .video-item img{
 max-width: 64px;
 }
-
+.total{
+    background-color: #66a3ff;
+}
 .video-detail .details{
     margin-top : 10px;
     border-radius: 4px;
     padding : 10px;
     border : 1px solid #ddd;
+    background-color: aquamarine;
 }
 .list-group-item{
     cursor :pointer;
+    background-color: aquamarine;
 }
 .list-group-item:hover{
     background-color: #eee;
+}
+.listouter{
+    background-color: aquamarine;
+}
+.container
+{
+    background-color: #66a3ff;
 }
